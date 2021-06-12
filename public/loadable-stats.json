@@ -1,0 +1,296 @@
+{
+  "hash": "31a80bbb9b080e5300e6",
+  "publicPath": "/",
+  "outputPath": "D:\\test_reactSSR\\public",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ],
+    "App": [
+      "App.js"
+    ],
+    "pages-userpage-userpage": [
+      "pages-userpage-userpage.js"
+    ],
+    "pages-homePage-homePage": [
+      "pages-homePage-homePage.js"
+    ],
+    "pages-loginPage-loginPage": [
+      "pages-loginPage-loginPage.js"
+    ],
+    "pages-adminPage-adminPage": [
+      "pages-adminPage-adminPage.js"
+    ],
+    "nothing": [
+      "nothing.js"
+    ],
+    "pages-notFoundPage-notFoundPage": [
+      "pages-notFoundPage-notFoundPage.js"
+    ],
+    "components-headerComponent-headerComponent": [
+      "components-headerComponent-headerComponent.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 12,
+      "size": 394922
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "App": {
+      "name": "App",
+      "chunks": [
+        123,
+        768
+      ],
+      "assets": [
+        {
+          "name": "123.js"
+        },
+        {
+          "name": "App.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-userpage-userpage": {
+      "name": "pages-userpage-userpage",
+      "chunks": [
+        749
+      ],
+      "assets": [
+        {
+          "name": "pages-userpage-userpage.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-homePage-homePage": {
+      "name": "pages-homePage-homePage",
+      "chunks": [
+        344
+      ],
+      "assets": [
+        {
+          "name": "pages-homePage-homePage.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-loginPage-loginPage": {
+      "name": "pages-loginPage-loginPage",
+      "chunks": [
+        399,
+        432,
+        107
+      ],
+      "assets": [
+        {
+          "name": "399.js"
+        },
+        {
+          "name": "432.js"
+        },
+        {
+          "name": "pages-loginPage-loginPage.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-adminPage-adminPage": {
+      "name": "pages-adminPage-adminPage",
+      "chunks": [
+        399,
+        432,
+        686
+      ],
+      "assets": [
+        {
+          "name": "399.js"
+        },
+        {
+          "name": "432.js"
+        },
+        {
+          "name": "pages-adminPage-adminPage.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "nothing": {
+      "name": "nothing",
+      "chunks": [
+        95
+      ],
+      "assets": [
+        {
+          "name": "nothing.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-notFoundPage-notFoundPage": {
+      "name": "pages-notFoundPage-notFoundPage",
+      "chunks": [
+        345
+      ],
+      "assets": [
+        {
+          "name": "pages-notFoundPage-notFoundPage.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "components-headerComponent-headerComponent": {
+      "name": "components-headerComponent-headerComponent",
+      "chunks": [
+        399,
+        788
+      ],
+      "assets": [
+        {
+          "name": "399.js"
+        },
+        {
+          "name": "components-headerComponent-headerComponent.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 179,
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "id": 768,
+      "files": [
+        "App.js"
+      ]
+    },
+    {
+      "id": 749,
+      "files": [
+        "pages-userpage-userpage.js"
+      ]
+    },
+    {
+      "id": 344,
+      "files": [
+        "pages-homePage-homePage.js"
+      ]
+    },
+    {
+      "id": 107,
+      "files": [
+        "pages-loginPage-loginPage.js"
+      ]
+    },
+    {
+      "id": 686,
+      "files": [
+        "pages-adminPage-adminPage.js"
+      ]
+    },
+    {
+      "id": 95,
+      "files": [
+        "nothing.js"
+      ]
+    },
+    {
+      "id": 345,
+      "files": [
+        "pages-notFoundPage-notFoundPage.js"
+      ]
+    },
+    {
+      "id": 788,
+      "files": [
+        "components-headerComponent-headerComponent.js"
+      ]
+    },
+    {
+      "id": 399,
+      "files": [
+        "399.js"
+      ]
+    },
+    {
+      "id": 432,
+      "files": [
+        "432.js"
+      ]
+    },
+    {
+      "id": 123,
+      "files": [
+        "123.js"
+      ]
+    }
+  ]
+}
