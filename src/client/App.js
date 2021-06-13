@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@material-ui/styles";
 import { configureStore } from "@reduxjs/toolkit";
 import React from "react";
+
 import { Provider } from "react-redux";
 import { renderRoutes } from "react-router-config";
 import { BrowserRouter } from "react-router-dom";
@@ -8,6 +9,9 @@ import thunk from "redux-thunk";
 import theme from "../theme/theme";
 import AppRouter from "./AppRouter";
 import counterReducer from "../redux/reducers";
+// const AppRouter = loadable(() => import("./AppRouter"), {
+//   ssr: true,
+// });
 
 //gettingInitialProps from server and setting to redux initial Store
 const preloadedState = JSON.parse(JSON.stringify(window.INITIAL_STATE));

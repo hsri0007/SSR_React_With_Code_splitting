@@ -13,7 +13,10 @@ import { ChunkExtractor, ChunkExtractorManager } from "@loadable/server";
 export default (req, store) => {
   const sheets = new ServerStyleSheets();
   const statsFile = path.resolve("public/loadable-stats.json");
-  const extractor = new ChunkExtractor({ statsFile });
+  const extractor = new ChunkExtractor({
+    statsFile,
+    entrypoints: ["main"],
+  });
   const context = {};
 
   const content = ReactDOMServer.renderToString(
@@ -40,6 +43,7 @@ export default (req, store) => {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>My page</title>
       <style class="initial" id="jss-server-side">${css}</style>
+    
     </head>
       <body style="margin:0;padding:0;box-sizing:border-box" > 
           <div id="root">${content}</div>

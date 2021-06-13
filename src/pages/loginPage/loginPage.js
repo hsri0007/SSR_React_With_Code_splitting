@@ -1,5 +1,11 @@
 import React from "react";
-import LoginComponent from "../../components/loginComponent/loginComponent";
+import loadable from "react-loadable-visibility/loadable-components";
+const LoginComponent = loadable(
+  () => import("../../components/loginComponent/loginComponent"),
+  {
+    ssr: true,
+  }
+);
 
 const LoginPage = () => {
   return (
